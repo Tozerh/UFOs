@@ -17,11 +17,13 @@ The search functionality on our page is relatively robust and easy to navigate. 
 
 All you need to do to search is to input your desired data into each field and then press "Enter" on your keyboard (or the equivalent), which will then execute the search based on your populated criteria:
 
+![Filter Fields Populated](https://github.com/Tozerh/UFOs/blob/main/mod11%20table%20searched.PNG)
 
-### *High level overview and two additional queries:*
+### *Summary*
 
-Generally, the month of June should be more profitable for the surf/ice cream parlor. Minimum temperatures are much higher in June than in December, and we should expect more foot traffic earlier in the day and later into the evening due to warmer temperatures. 
+- One drawback of my page is that the search results table spills over with too many results, and ends up being positioned below the filter fields. It would be much neater if the search results always sat beside the filter fields. 
 
-Two additional queries: 
-- I would suggest querying information on sunrise and sunset times, which should help optimize store opening/closing hours based on month. I would expect that there will be significantly more hours of sunlight in June than in December, which might necessitate different hours of operation and staffing. 
-- Additionally, a query involving tidal charts (low and high tide) would be really helpful to dial in stafffing related to the "surf" portion of the concept. It would be useful to know when to expect the best wave conditions month-to-month to allow for additional or reduced surf staffing, as the case may be. 
+Two additional recommendations:
+- I would suggest creating a map object as well that could display the filtered search criteria on a map, with individual pop-ups for UFO sighting returned. 
+
+- I would also suggest that the user be given an option to filter the search table based on each of the individual fields. E.g., the user could select ("Duration") in order to filter the results based on the duration column.  
