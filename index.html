@@ -44,35 +44,32 @@ So what do YOU think? Are we alone in the universe? Are aliens trying to contact
     <div class="container-fluid">
         <div class="row">
             <div class="column-md-3">
-                <form>
+                <form class="bg-dark">
                     <p>Filter Search</p>
+                    <ul class = "bg-dark">
+                        <li class="list-group-item bg-dark">
+                            <label for="date">Enter a Date</label>
+                            <input type="text" placeholder="1/10/2010" id="datetime" />
+                        </li>
+                        <li class="list-group-item bg-dark">
+                            <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                        </li>
+                    </ul>
                 </form>
             </div>
             <div class="column-md-9">
-                <ul class = "list-group">
-                    <li class="list-group-item">
-                        <label for="date">Enter a Date</label>
-                        <input type="text" placeholder="1/10/2010" id="datetime" />
-                    </li>
-                    <li class="list-group-item">
-                        <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-
-                    </li>
-                </ul>
-            </div>
-            <div class="column-md-9">
                 <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>City</th>
-                            <th>State</th>
-                            <th>Country</th>
-                            <th>Shape</th>
-                            <th>Duration</th>
-                            <th>Comments</th>
-                        </tr>
-                    </thead>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>City</th>
+                                <th>State</th>
+                                <th>Country</th>
+                                <th>Shape</th>
+                                <th>Duration</th>
+                                <th>Comments</th>
+                            </tr>
+                        </thead>
                     <tbody></tbody>
                 </table>
             </div>
