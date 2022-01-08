@@ -13,6 +13,10 @@ Code and Software: JavaScript (+ D3.js JavaScript library), HTML, & CSS.
 
 The search functionality on our page is relatively robust and easy to navigate. Our data table is searchable based on five criteria: date, city, state, country, and shape: 
 
+![Filters](https://github.com/Tozerh/UFOs/blob/main/mod11%20table%20filters.PNG)
+
+All you need to do to search is to input your desired data into each field and then press "Enter" on your keyboard (or the equivalent), which will then execute the search based on your populated criteria:
+
 
 ### *High level overview and two additional queries:*
 
